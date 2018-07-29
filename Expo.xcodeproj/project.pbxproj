@@ -53,6 +53,7 @@
 		82027566210C4D3700D0A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		822943C3210C96C200B591B9 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		822943C5210CA72D00B591B9 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		8266B4CC210D5C800090E0D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		82027535210C4D3600D0A59D = {
 			isa = PBXGroup;
 			children = (
+				8266B4CC210D5C800090E0D9 /* README.md */,
 				82027540210C4D3600D0A59D /* Expo */,
 				82027558210C4D3700D0A59D /* ExpoTests */,
 				82027563210C4D3700D0A59D /* ExpoUITests */,
