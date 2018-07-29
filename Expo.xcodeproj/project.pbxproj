@@ -15,6 +15,8 @@
 		8202754F210C4D3700D0A59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8202754D210C4D3700D0A59D /* LaunchScreen.storyboard */; };
 		8202755A210C4D3700D0A59D /* ExpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82027559210C4D3700D0A59D /* ExpoTests.swift */; };
 		82027565210C4D3700D0A59D /* ExpoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82027564210C4D3700D0A59D /* ExpoUITests.swift */; };
+		822943C4210C96C200B591B9 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822943C3210C96C200B591B9 /* LocationCell.swift */; };
+		822943C6210CA72D00B591B9 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822943C5210CA72D00B591B9 /* Field.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		82027560210C4D3700D0A59D /* ExpoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82027564210C4D3700D0A59D /* ExpoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoUITests.swift; sourceTree = "<group>"; };
 		82027566210C4D3700D0A59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822943C3210C96C200B591B9 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		822943C5210CA72D00B591B9 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				82027541210C4D3600D0A59D /* AppDelegate.swift */,
 				82027543210C4D3600D0A59D /* ViewController.swift */,
+				822943C5210CA72D00B591B9 /* Field.swift */,
+				822943C3210C96C200B591B9 /* LocationCell.swift */,
 				82027545210C4D3600D0A59D /* Main.storyboard */,
 				8202754B210C4D3700D0A59D /* Assets.xcassets */,
 				8202754D210C4D3700D0A59D /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822943C6210CA72D00B591B9 /* Field.swift in Sources */,
 				82027544210C4D3600D0A59D /* ViewController.swift in Sources */,
 				8202754A210C4D3600D0A59D /* Expo.xcdatamodeld in Sources */,
+				822943C4210C96C200B591B9 /* LocationCell.swift in Sources */,
 				82027542210C4D3600D0A59D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.d2burke.Expo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.d2burke.Expo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
